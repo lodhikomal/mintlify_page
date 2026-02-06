@@ -96,8 +96,6 @@ body {
     width: 100%;
     min-height: 100vh;
     position: relative;
-
-    /* fade out from bottom */
     mask-image: linear-gradient(to bottom,
             black 70%,
             transparent 100%);
@@ -458,6 +456,12 @@ body {
 
 }
 
+.carosel-card {
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+
 .plan-para {
     color: #08090acc !important;
     font-size: 16px !important;
@@ -480,24 +484,24 @@ body {
 }
 
 .footer-container {
-    border-top: 1px solid red;
+    border-top: 1px solid#08090a0d;
 }
 
 .footer {
     /* padding: 3rem; */
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: repeat();
-    border: 1px solid red;
+    /* grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(); */
+    border: 1px solid #08090a0d;
 }
 
 .title-footer {
-    padding: 3rem 0;
+    padding: 3rem 0 1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* padding: 30px 0; */
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #08090a0d
 }
 
 .social-icon {
@@ -509,15 +513,64 @@ body {
     padding: 30px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    border-bottom: 1px solid #08090a0d
 }
 
 .list {
     display: flex;
     flex-direction: column;
     gap: 15px;
+
 }
 
-.list h3 {
+.footer-title {
     text-transform: uppercase;
-    color: #08090a80
+    color: #a8a8a8 !important;
+    font-size: 13px;
+    font-weight: var(--font-medium);
+
+}
+
+.list-link {
+    display: inline-block;
+    font-size: 14px;
+    color: var(--color-text-main);
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    margin-bottom: 10px;
+
+}
+
+.backed-para {
+    padding: 30px 0;
+    border-bottom: 1px solid #08090a0d
+}
+
+.backed-para p {
+    padding: 0 30px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: var(--font-medium);
+    margin-right: 30px;
+}
+
+.system {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: space-between;
+    border: none;
+}
+
+.copyright {
+    font-size: 13px !important;
+    color: #707071 !important;
+    font-weight: var(var(--font-medium))
+}
+
+.system-para {
+    padding: 0 !important;
+    margin-right: 0 !important;
+    /* background-color: #efefef; */
+
 }
