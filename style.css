@@ -488,10 +488,9 @@ body {
 }
 
 .footer {
-    /* padding: 3rem; */
+
     display: grid;
-    /* grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: repeat(); */
+
     border: 1px solid #08090a0d;
 }
 
@@ -500,7 +499,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 30px 0; */
+
     border-bottom: 1px solid #08090a0d
 }
 
@@ -571,6 +570,5 @@ body {
 .system-para {
     padding: 0 !important;
     margin-right: 0 !important;
-    /* background-color: #efefef; */
 
 }
